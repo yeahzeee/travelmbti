@@ -19,25 +19,25 @@ const q = {
 
 // 결과 데이터
 const result = {
-  ISTJ: { img: "img/인간시간표.png" },
-  ISFJ: { img: "img/힐링캠프.png" },
-  INFJ: { img: "img/낭만여행가.png" },
-  INTJ: { img: "img/자유로운영혼.png" },
+  ISTJ: { img: "img/timetable.png" },
+  ISFJ: { img: "img/healingcamp.png" },
+  INFJ: { img: "img/romantic.png" },
+  INTJ: { img: "img/free.png" },
 
-  ISTP: { img: "img/자유로운영혼.png" },
-  ISFP: { img: "img/자유로운영혼.png" },
-  INFP: { img: "img/낭만여행가.png" },
-  INTP: { img: "img/잼.png" },
+  ISTP: { img: "img/free.png" },
+  ISFP: { img: "img/free.png" },
+  INFP: { img: "img/romantic.png" },
+  INTP: { img: "img/detective.png" },
 
-  ESTP: { img: "img/프로플렉서.png" },
-  ESFP: { img: "img/무한도전.png" },
-  ENFP: { img: "img/개척자.png" },
-  ENTP: { img: "img/자유로운영혼.png" },
+  ESTP: { img: "img/proflexer.png" },
+  ESFP: { img: "img/challenge.png" },
+  ENFP: { img: "img/pioneer.png" },
+  ENTP: { img: "img/free.png" },
 
-  ESTJ: { img: "img/인간시간표.png" },
-  ESFJ: { img: "img/MZ의정석.png" },
-  ENFJ: { img: "img/자유로운영혼.png" },
-  ENTJ: { img: "img/자유로운영혼.png" },
+  ESTJ: { img: "img/timetable.png" },
+  ESFJ: { img: "img/mz.png" },
+  ENFJ: { img: "img/free.png" },
+  ENTJ: { img: "img/free.png" },
 };
 
 let mbtiImgName = "";
