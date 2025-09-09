@@ -1,0 +1,135 @@
+@font-face {
+  font-family: "bitbit";
+  src: url("//cdn.df.nexon.com/img/common/font/DNFBitBit-Regular.woff"),
+       url("//cdn.df.nexon.com/img/common/font/DNFBitBit-Regular.woff2");
+}
+
+/* 기본 구조*/
+body.container {
+  background-color: #6ee2ff;
+}
+
+.logo {
+  width: 200px;
+  margin-top: 14px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+/* 화면 구조*/
+article {
+  display: flex;
+  flex-direction: column;
+}
+
+.question {
+  display: none;
+}
+
+.result {
+  display: none;
+}
+
+.progress-bar {
+  background-color: #ff8ea1;
+}
+
+.progress {
+  background-color: #ffffff;
+}
+
+/* 이미지 */
+#img {
+  width: 500px;
+  height: 900px;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* 제목 / 텍스트 */
+.title {
+  font-family: "bitbit";
+  font-size: 130px;
+  line-height: 150px;
+  margin-top: 12%;
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+.txt {
+  font-size: 45px;
+  text-align: center;
+  margin-bottom: 2%;
+  font-family: "bitbit";
+}
+
+/* 버튼 */
+.btn {
+  text-align: center;
+  font-size: 18px;
+  font-weight: lighter;
+  color: black;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 3px solid #000;
+  margin: 0 auto;
+  font-family: "Do Hyeon", sans-serif;
+}
+
+.btn a,
+.btn--start {
+  font-size: 22px;
+  position: relative;
+  bottom: -100px;
+  border: 3px solid #000;
+  border-radius: 10px;
+  background: #fff;
+  padding: 10px 20px;
+  color: #000;
+}
+
+
+/* 뒤로 가기 버튼 */
+.btn-back {
+  font-size: 1.5rem;
+  font-weight: lighter;
+  color: #000;
+  background-color: #6ee2ff;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+/* 문제 선택 버튼 */
+.btn-choice {
+  font-weight: lighter;
+  color: black;
+  background-color: #f8f8f8;
+  border-color: #000;
+  width: 350px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.btn-choice.alt {
+  background-color: rgb(244, 244, 244);
+}
+
+/* 결과 화면 버튼 */
+.btn-result {
+  font-size: large;
+  font-weight: lighter;
+  color: black;
+  background-color: rgb(244, 244, 244);
+  border-color: #000;
+  width: 350px;
+  height: 50px;
+  margin: 0 auto;
+}
